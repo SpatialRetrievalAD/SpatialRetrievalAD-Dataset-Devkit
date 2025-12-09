@@ -16,7 +16,7 @@
 <sup>4</sup>University of Science and Technology of China  
 
 <small><sup>*</sup>Equal contribution &nbsp; <sup>†</sup>Corresponding authors</small>
-
+> 📧 Primary Contact: [Xiaosong Jia](https://jiaxiaosong1002.github.io/) (jiaxiaosong@fudan.edu.cn)
 
 </div>
 
