@@ -139,6 +139,19 @@ def get_camera_yaw_pitch(nusc, sample_data_token):
     return yaw, pitch
 
 
+def get_camera_yaw_pitch_fov(nusc, sample_data_token):
+    cam_data = nusc.get('sample_data', sample_data_token)
+    calib = nusc.get('calibrated_sensor', cam_data['calibrated_sensor_token'])
+    intrinsic = np.array(calib['camera_intrinsic'])
+    fx = intrinsic[0, 0]
+    img_w, img_h = cam_data['width'], cam_data['height']
+    fov = 2 * np.arctan(img_w / (2 * fx)) * 180 / np.pi
+
+    yaw, pitch = get_camera_yaw_pitch(nusc, sample_data_token)
+    return yaw, pitch, fov
+
+
+
 def get_camera_relative_yaw(nusc, sample_data_token):
     """
     Compute camera yaw relative to the vehicle frame (degrees, 0-360).
