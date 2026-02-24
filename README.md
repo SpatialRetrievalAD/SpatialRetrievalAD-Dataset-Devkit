@@ -170,7 +170,6 @@ For more details, please refer to [Dataset Reconstruction](docs/reconstruction.m
        booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
        year={2026}
 }
-}
 ```
 
 ## 🙏 Acknowledgments <a name="acknowledgments"></a>
