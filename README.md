@@ -1,6 +1,6 @@
 <div align="center">
 
-# Spatial Retrieval Augmented Autonomous Driving
+# Spatial Retrieval Augmented Autonomous Driving (CVPR 2026)
 
 ## SpatialRetrievalAD Dataset & Devkit
 
@@ -164,14 +164,12 @@ For more details, please refer to [Dataset Reconstruction](docs/reconstruction.m
 
 ## 🖊️ Citation
 ```
-@misc{spad,
+@inproceedings{jia2026spatial,
       title={Spatial Retrieval Augmented Autonomous Driving}, 
       author={Xiaosong Jia and Chenhe Zhang and Yule Jiang and Songbur Wong and Zhiyuan Zhang and Chen Chen and Shaofeng Zhang and Xuanhe Zhou and Xue Yang and Junchi Yan and Yu-Gang Jiang},
-      year={2025},
-      eprint={2512.06865},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2512.06865}, 
+       booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+       year={2026}
+}
 }
 ```
 
